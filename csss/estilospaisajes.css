@@ -23,6 +23,7 @@ text-shadow: 2px 2px 2px #02010a
 nav{
 width:30%;
 padding-top:30px;
+text-align : right ;
 }
 
 .three-columns {
@@ -40,7 +41,8 @@ padding-top:30px;
 border: 0px solid #000000
 }
 body{
-	background-color: #02010a.
+	background-color: #02010a.;
+  font-family: 'Dancing Script', cursive;
 	}
 img{
 	display: block;
@@ -90,8 +92,18 @@ width: 100%;
 header nav {
 width: 100%;
 }
+nav{
+  text-align: center;
+}
+p{
+  text-align: center
+}
+footer h1{
+  text-align: center;
+}
 img{
         width: 100%;
     }   
-    .three-columns{ display:flex; flex-direction:column; }
-}
+   .three-columns{ display:flex; flex-direction:column;
+    text-align: center; }
+  }
